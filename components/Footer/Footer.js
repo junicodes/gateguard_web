@@ -6,7 +6,7 @@ import { FindUrlPath } from '../../helpers/FindUrlPath'
 import Content from "./Content";
 
 const Footer = ({ page }) => (
-    <footer className={`${styles.wrapper} footer relative xl:mx-auto pt-1 bg-primaryBlack text-white`}>
+    <footer className={`${styles.wrapper} footer relative xl:mx-auto pt-5 bg-primaryBlack text-white`}>
         <div className="container mx-auto text-left lg:px-20">
             {page === 'dash' ?
                 <div className={`md:ml-36`}>

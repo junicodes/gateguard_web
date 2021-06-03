@@ -12,13 +12,9 @@ let sharedState = {
     ceilingPreloader: false,
     ceilingPreloaderRequest: false,
     findUrlPath: '/',
-    viewTimeLine: false,
-    completeSurveyStatus: false,
-    currentStage: null,
     openModal: {
         type: 'no-modal', //large-modal
-    },
-    companyUpdateSwitch: null
+    }
 }
 
 //Reducer to change state
@@ -32,16 +28,8 @@ const reducer = (state, action) => {
             return sharedState = { ...sharedState, ceilingPreloaderRequest: action.payload } 
         case 'FINDURLPATH':
             return sharedState = { ...sharedState, findUrlPath: action.payload }
-        case 'VIEWTIMELINE':
-            return sharedState = { ...sharedState, viewTimeLine: action.payload }
-        case 'CURRENT_STAGE':
-            return sharedState = { ...sharedState, currentStage: action.payload }
-        case 'STAGE_ANSWERS':
-            return sharedState = { ...sharedState, stagesAnswers: action.payload }
         case 'OPEN_MODAL':
             return sharedState = { ...sharedState, openModal: action.payload }
-        case 'COMPANY_UPDATE_SWITCH':
-            return sharedState = { ...sharedState, companyUpdateSwitch: action.payload }
         default:
             throw new Error(`Unknown action: ${action.type}`)
     }

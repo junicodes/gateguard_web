@@ -16,15 +16,18 @@ body {
     scroll-behavior: smooth;
     box-sizing: border-box;
   }
+
   body {
     overflow: auto;
     scrollbar-width: thin;
     scrollbar-color: rgb(185, 184, 184);
   }
+
   body::-webkit-scrollbar {
     width: 10px;
     height: 10px;
   }
+
   body::-webkit-scrollbar-track {
     background: rgb(185, 184, 184);
     border-radius: 10px;
@@ -35,4 +38,21 @@ body {
     color: black;
     border-radius: 10px;
     background: rgb(185, 184, 184);
+  }
+
+  .primary_btn {
+    width: 140px;
+    height: 40px;
+    background: #49A347;
+    border-radius: 5px;
+  }
+
+  .nav-link {
+    list-style: none;
+    transition: 1s all ease-in;
+  }
+
+  .nav-link:hover {
+    color: #49A347;
+    transform: scale(1.001);
   }

@@ -24,7 +24,8 @@ module.exports = {
       extend: {
         colors: {
           primaryGreen: '#49A347',
-          primaryBlack: '#231F1F'
+          primaryBlack: '#231F1F',
+          primaryFontColor: '#231F1F'
         },
       },
     },
