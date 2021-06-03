@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import LoadingBar from 'react-top-loading-bar'
-import { useAppContext } from '../../react-wrappers/Context/AppContext';
+import { useAppContext } from '../../react-wrapper/Context/AppContext';
 
 const TopLoader = () => {
     //State Manage

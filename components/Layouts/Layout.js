@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Footer from '../Footer/Footer'
-import Navbar from "../Navbar/Navbar";
+import Footer from './Footer/Footer'
+import Navbar from "./Navbar/Navbar";
 
 
 const Layout = ({ children }) => {
@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
                 {children}
 
             </div>
-            
+
             <Footer />
         </> 
     )
