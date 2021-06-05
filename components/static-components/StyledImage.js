@@ -21,7 +21,7 @@ const StyledImage = forwardRef(({ onEvent, dataset, className, noShadow, src, al
                     width={width} height={height} 
                     onClick={event}
                     onError={(e) => {
-                         e.target.src ='/images/si-fuse-logo-placeholder.png' }} //e.target.classList.remove('object-cover');e.target.classList.add('object-contain')
+                         e.target.src ='/images/app-logo/gateguard-icon.svg' }} //e.target.classList.remove('object-cover');e.target.classList.add('object-contain')
                 />
             </div>
 
