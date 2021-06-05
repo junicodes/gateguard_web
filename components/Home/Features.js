@@ -3,9 +3,9 @@ import StyledImage from '../static-components/StyledImage';
 const Features = () => {
     
     return (
-        <div className="wrapper flex flex-col md:flex-row justify-between mt-32 sm:mt-48 md:mt-10 xl:mt-32">
+        <div id="features" className="wrapper flex flex-col md:flex-row justify-between pt-32 sm:pt-48 md:pt-10 xl:pt-32">
 
-            <div className="w-full mt-10 xl:mt-5">
+            <div className="w-full pt-10 xl:pt-5">
 
                 <div className="mx-4 xl:mx-52 md:flex justify-around">
                     <h1 className="font-bold text-3xl md:text-4xl text-left md:w-1/2">

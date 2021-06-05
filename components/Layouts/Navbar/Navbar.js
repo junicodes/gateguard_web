@@ -36,10 +36,10 @@ const Navbar = () => {
                 </div>
 
                 <div className="hidden lg:flex items-center ml-24">
-                    <Link href="/home">
+                    <Link href="#features">
                         <a className="leading-relaxed inline-block whitespace-no-wrap text-primaryFontColor px-4">
                             <li className="nav-link">
-                                Home
+                                Features
                             </li>
                         </a>
                     </Link>
