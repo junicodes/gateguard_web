@@ -1,6 +1,6 @@
 .page{
   background: white;
-  height: 2500px;
+  height: 6500px;
 }
 
 .main {
@@ -85,6 +85,17 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.linkedin{
+
+}
+
+.featuresSection {
+  background: #F7FFFB;
+  height: 2204px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 600px) {

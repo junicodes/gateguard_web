@@ -46,6 +46,13 @@ body {
     background: #49A347;
     border-radius: 5px;
   }
+  
+  .primary_btn_large {
+    width: 200px;
+    height: 60px;
+    background: #49A347;
+    border-radius: 5px;
+  }
 
   .nav-link {
     list-style: none;

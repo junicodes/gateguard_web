@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import {appName, appMeta, appNameSmall} from '../globalHelper'
 import TopWallpaper from '@/components/Home/TopWallpaper'
 import Features from '@/components/Home/Features'
+import FeatureDetails from '@/components/Home/FeatureDetails'
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
       <main className={styles.main}>
           <TopWallpaper />
           <Features />
+          <section className={styles.featuresSection}>
+             <FeatureDetails />
+          </section>
       </main>
       
     </div>

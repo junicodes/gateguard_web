@@ -26,7 +26,7 @@ const Footer = ({ page }) => (
                 :
                 <div className={`py-8`}>
                     <Content />
-                    <div className="flex justify-center items-center pt-14">
+                    <div className="flex justify-center items-center pt-8">
                         <span className="font-light text-sm  text-white dark:text-white mb-2">© Copyright 2021 GateGuard inc</span>
                     </div>
                 </div>}
