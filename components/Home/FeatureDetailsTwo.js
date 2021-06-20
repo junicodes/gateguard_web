@@ -19,29 +19,29 @@ const FeatureDetailsTwo = () => {
     }
 
     return (
-        <div className="wrapper w-full flex flex-col md:flex-row lg:justify-evenly px-4 lg:px-10 xl:px-24 pt-16 lg:pt-24 relative">
+        <div className="wrapper w-full flex flex-col md:flex-row lg:justify-evenly px-4 lg:px-10 xl:px-24 pt-16 lg:pt-36 relative">
 
             <div className="md:pt-10 md:mt-0 item w-full md:w-1/2">
                 <h1 className="font-bold text-3xl sm:text-2xl xl:text-4xl sm:text-center md:text-left mb-5">
-                    Enhance your existing security <br></br> level by digitizing the process <br></br> at the gate.
+                    Easily manage payment options <br className="hidden lg:flex"></br>  for maintenance Dues, utility <br className="hidden lg:flex"></br> bills and other charges.
                 </h1>
                 <ul className="py-5">
                     <li className="flex my-5">
                         <StyledImage className="mr-2" width="24" height="24" src="/images/icons/check.svg" />
                         <p className="ml-2 text-lg sm:text-base lg:text-lg">
-                            Guards admit visitors seamlessly using inbuilt QR code / <br></br> access token
+                               Generate and keep track of payments from the <br className="hidden lg:flex"></br> dashboard.
                         </p>
                     </li>
                     <li className="flex my-5">
                         <StyledImage className="mr-2" width="24" height="24" src="/images/icons/check.svg" />
                         <p className="ml-2 text-lg sm:text-base lg:text-lg">
-                            Residents manage list of allowed visitors
+                              Residents can make payments on the app.
                         </p>
                     </li>
                     <li className="flex my-5">
                         <StyledImage className="mr-2" width="24" height="24" src="/images/icons/check.svg" />
                         <p className="ml-2 text-lg sm:text-base lg:text-lg">
-                            Get real time notifications on visitors coming <br></br> to your hom
+                            Residents can record payments not made on <br className="hidden lg:flex"></br> the app.
                         </p>
                     </li>
                 </ul>

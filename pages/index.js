@@ -6,6 +6,7 @@ import TopWallpaper from '@/components/Home/TopWallpaper'
 import Features from '@/components/Home/Features'
 import FeatureDetailsOne from '@/components/Home/FeatureDetailsOne'
 import FeatureDetailsTwo from '@/components/Home/FeatureDetailsTwo'
+import FeatureDetailsThree from '@/components/Home/FeatureDetailsThree'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
           <section className={styles.featuresSection}>
              <FeatureDetailsOne />
              <FeatureDetailsTwo />
+             <FeatureDetailsThree />
           </section>
       </main>
       
