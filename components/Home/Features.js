@@ -3,12 +3,12 @@ import StyledImage from '../static-components/StyledImage';
 const Features = () => {
     
     return (
-        <div id="features" className="wrapper flex flex-col md:flex-row justify-between pt-32 sm:pt-48 md:pt-10 xl:pt-32">
+        <div id="features" className="wrapper flex flex-col md:flex-row justify-between">
 
             <div className="w-full pt-10 xl:pt-5">
 
                 <div className="mx-4 xl:mx-52 md:flex justify-around">
-                    <h1 className="font-bold text-3xl md:text-4xl text-left md:w-1/2">
+                    <h1 className="font-bold text-3xl xl:text-4xl text-left md:w-1/2">
                         All in one Estate <br></br> Management Solution
                     </h1>
                     <p className="my-5 md:mt-0 md:w-1/2 md:px-4">
@@ -17,7 +17,7 @@ const Features = () => {
                     </p>
                 </div>
 
-                <div className="mx-4 xl:mx-52 md:flex justify-around my-14">
+                <div className="mx-4 xl:mx-52 md:flex justify-around mt-14">
 
                     <div className="md:flex justify-start md:w-1/2 my-10 md:my-5">
 
@@ -27,7 +27,7 @@ const Features = () => {
 
                         <div className="w-full md:w-3/4 my-4">
 
-                            <h1 className="font-bold text-2xl text-left text-primaryFontColor">
+                            <h1 className="font-bold text-xl md:text-2xl text-left text-primaryFontColor">
                                 Visitor Management
                             </h1>
 
@@ -47,7 +47,7 @@ const Features = () => {
 
                         <div className="w-full md:w-3/4 my-4">
 
-                            <h1 className="font-bold text-2xl text-left text-primaryFontColor">
+                            <h1 className="font-bold text-xl md:text-2xl text-left text-primaryFontColor">
                                  Bills Management
                             </h1>
 
@@ -72,7 +72,7 @@ const Features = () => {
 
                         <div className="w-full md:w-3/4 my-4">
 
-                            <h1 className="font-bold text-2xl text-left text-primaryFontColor">
+                            <h1 className="font-bold text-xl md:text-2xl text-left text-primaryFontColor">
                                 Service Directory
                             </h1>
 
@@ -92,7 +92,7 @@ const Features = () => {
 
                         <div className="w-full md:w-3/4 my-4">
 
-                            <h1 className="font-bold text-2xl text-left text-primaryFontColor">
+                            <h1 className="font-bold text-xl md:text-2xl text-left text-primaryFontColor">
                                  Admin Web Portal
                             </h1>
 
@@ -111,11 +111,13 @@ const Features = () => {
             <style jsx>{`
 
                 .wrapper {
-                    height: 750px;
+                    height: 650px;
                 }
 
-                @media screen and (max-width: 768px) {
-
+                @media screen and (max-width: 1200px) {
+                    .wrapper {
+                        height: auto;
+                    }
                 }
             
             `}

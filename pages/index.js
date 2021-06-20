@@ -4,7 +4,8 @@ import styles from '../styles/Home.module.css'
 import {appName, appMeta, appNameSmall} from '../globalHelper'
 import TopWallpaper from '@/components/Home/TopWallpaper'
 import Features from '@/components/Home/Features'
-import FeatureDetails from '@/components/Home/FeatureDetails'
+import FeatureDetailsOne from '@/components/Home/FeatureDetailsOne'
+import FeatureDetailsTwo from '@/components/Home/FeatureDetailsTwo'
 
 export default function Home() {
   return (
@@ -16,11 +17,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={`${styles.main} 2xl:container mx-auto`}>
           <TopWallpaper />
           <Features />
           <section className={styles.featuresSection}>
-             <FeatureDetails />
+             <FeatureDetailsOne />
+             <FeatureDetailsTwo />
           </section>
       </main>
       

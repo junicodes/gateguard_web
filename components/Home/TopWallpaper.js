@@ -1,15 +1,16 @@
 import StyledImage from '../static-components/StyledImage';
+import styles from './Home.module.scss';
 
 const TopWallpaper = () => {
     
     return (
-        <div className="wrapper flex flex-col md:flex-row justify-between">
+        <div className="wrapper flex flex-col md:flex-row justify-between relative">
 
-            <StyledImage className="absolute right-0 top-10" src="/images/home-page/oval-small.svg" />
+            <StyledImage className="absolute right-0 -top-8" src="/images/home-page/oval-small.svg" />
 
-            <div className="w-full md:w-1/2 flex items-center">
+            <div className="w-full md:w-1/2 flex items-center pt-20">
                 <div className="px-4 xl:px-24 mt-10 md:mt-0 item">
-                    <h1 className="font-bold text-3xl md:text-4xl sm:text-center md:text-left">
+                    <h1 className="font-bold text-3xl xl:text-4xl sm:text-center md:text-left">
                         Mordern Estate Management <br></br> that makes life smarter
                     </h1>
                     <p className="mt-5">
@@ -19,20 +20,20 @@ const TopWallpaper = () => {
                     <div className="flex justify-start sm:justify-center md:justify-start my-14">
                         <a className="leading-relaxed inline-block whitespace-no-wrap">
                             <div className="mr-1">
-                                <StyledImage src="/images/home-page/google-play.svg" width={196} height={60} />
+                                <StyledImage src="/images/home-page/google-play.svg" width={176} height={60} />
                             </div>
                         </a>
                         <a className="leading-relaxed inline-block whitespace-no-wrap">
                             <div className="ml-2">
-                                <StyledImage src="/images/home-page/apple-store.svg" width={196} height={60} />
+                                <StyledImage src="/images/home-page/apple-store.svg" width={176} height={60} />
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div className="image-block w-full md:w-1/2 md:flex items-center xl:items-end sm:px-10 lg:px-0">
-                <StyledImage className="xl:-mb-10" src="/images/home-page/wallpaper.svg" />
+            <div className="image-block w-full md:w-1/2 md:flex items-center xl:items-end sm:px-10 lg:px-0 mt-10">
+                <StyledImage className={styles.imgtopWallpaper} src="/images/home-page/wallpaper.svg" />
             </div>
 
             <StyledImage className="absolute left-0 bottom-0" src="/images/home-page/oval-small-left.svg" />
@@ -52,7 +53,9 @@ const TopWallpaper = () => {
                 }
                 
                 @media screen and (max-width: 768px) {
-
+                    .wrapper {
+                        height: auto;
+                    }
                 }
             
             `}

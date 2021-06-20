@@ -23,7 +23,7 @@ const Navbar = () => {
 
     return (
         <div className={`${styles.wrapper} bg-white h-16 w-full items-center`}>
-           <div className="flex justify-between mx-4 sm:mx-10 xl:mx-32 mt-3">
+           <div className="flex justify-between md:mx-10 mt-3">
                
                 <div className="text-right">
                     <Link href="/">

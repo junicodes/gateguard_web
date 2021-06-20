@@ -16,6 +16,9 @@ body {
     scroll-behavior: smooth;
     box-sizing: border-box;
   }
+  /* img, video {
+    max-width: none;
+  } */
 
   body {
     overflow: auto;
@@ -62,4 +65,16 @@ body {
   .nav-link:hover {
     color: #49A347;
     transform: scale(1.001);
+  }
+
+  @media screen and (max-width: 900px) {
+    .primary_btn_large {
+      width: 200px;
+      height: 50px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .primary_btn_large {
+      width: 100%;
+    }
   }

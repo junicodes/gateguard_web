@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     return (
         <>
 
-            <div className="lg:container mx-auto">
+            <div className="2xl:container mx-auto">
 
                 <Navbar />
                     
