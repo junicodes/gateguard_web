@@ -19,29 +19,19 @@ const FeatureDetailsFour = () => {
     }
 
     return (
-        <div className="wrapper w-full flex flex-col md:flex-row lg:justify-evenly px-4 lg:px-10 xl:px-24 pt-16 lg:pt-36 relative">
+        <div className="wrapper w-full flex flex-col md:flex-row lg:justify-evenly px-4 lg:px-10 xl:px-24 pt-16 lg:pt-10 relative">
 
             <div className="pt-20 md:pt-10 md:mt-0 item w-full md:w-1/2">
                 <h1 className="font-bold text-3xl sm:text-2xl xl:text-4xl sm:text-center md:text-left mb-5">
-                    Easily manage payment options <br className="hidden lg:flex"></br>  for maintenance Dues, utility <br className="hidden lg:flex"></br> bills and other charges.
+                     Interested in managing your <br className="hidden lg:flex"></br> estate with GateGuard?
                 </h1>
                 <ul className="py-5">
                     <li className="flex my-5">
-                        <StyledImage className="mr-2" width="24" height="24" src="/images/icons/check.svg" />
                         <p className="ml-2 text-lg sm:text-base lg:text-lg">
-                               Generate and keep track of payments from the <br className="hidden lg:flex"></br> dashboard.
-                        </p>
-                    </li>
-                    <li className="flex my-5">
-                        <StyledImage className="mr-2" width="24" height="24" src="/images/icons/check.svg" />
-                        <p className="ml-2 text-lg sm:text-base lg:text-lg">
-                              Residents can make payments on the app.
-                        </p>
-                    </li>
-                    <li className="flex my-5">
-                        <StyledImage className="mr-2" width="24" height="24" src="/images/icons/check.svg" />
-                        <p className="ml-2 text-lg sm:text-base lg:text-lg">
-                            Residents can record payments not made on <br className="hidden lg:flex"></br> the app.
+                        Worry less abot security saying goodbye to the old scary security system.
+                        <br className="hidden lg:flex"></br> Monitor every activity at your residence
+                         with just one click. <br className="hidden lg:flex"></br> GateGUARD is the perfect App that 
+                         solves every of your security worries.
                         </p>
                     </li>
                 </ul>
