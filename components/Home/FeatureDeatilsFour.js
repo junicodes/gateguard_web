@@ -52,7 +52,7 @@ const FeatureDetailsFour = () => {
 
             <div className="items-center md:px-10 lg:px-0 w-full mx-auto md:w-1/2 pt-10 -mb-10 md:mt-0 md:pt-0 ">
                 {/* <StyledImage className={`${styles.imgFeatureTwo} flex md:hidden mx-auto md:mt-28 lg:mt-20`} src="/images/home-page/feature-wallpaper-four-mobile.png" /> */}
-                <StyledImage className={`${styles.imgFeatureTwo}  md:absolute left-0 md:mt-28 lg:mt-20`} src="/images/home-page/feature-wallpaper-four.svg" />
+                <StyledImage className={`${styles.imgFeatureTwo}  md:absolute md:right-0 md:mt-28 lg:mt-20`} src="/images/home-page/feature-wallpaper-four.svg" />
             </div>
             
 

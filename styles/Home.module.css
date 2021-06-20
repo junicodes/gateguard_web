@@ -1,6 +1,7 @@
 .page{
   background: white;
-  height: 6500px;
+  height: auto;
+  padding-bottom: 400px;
 }
 
 .main {
@@ -97,12 +98,17 @@
 }
 
 
+@media (max-width: 900px) {
+  .page{
+    padding-bottom: 200px;
+  }
+}
+
 @media (max-width: 768px) {
   .page{
-    height: auto;
+    padding-bottom: 0px;
   }
   .featuresSection {
-    background: #F7FFFB;
     height: auto;
   }
 }
