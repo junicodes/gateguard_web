@@ -36,7 +36,7 @@ const FeatureDetailsFour = () => {
                     </li>
                 </ul>
                 <div className="flex justify-start sm:justify-center md:justify-start py-8">
-                    <PrimaryBtn onEvent={handleBtnClick} className="primary_btn_large text-sm text-white justify-center font-bold lg:mt-0" label="Learn More" />
+                    <PrimaryBtn onEvent={handleBtnClick} className="primary_btn_large text-sm text-white justify-center font-bold lg:mt-0" label="Request a Demo" />
                 </div>
             </div>
 
