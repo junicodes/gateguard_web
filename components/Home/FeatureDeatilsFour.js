@@ -3,7 +3,7 @@ import StyledImage from '../static-components/StyledImage';
 import { useRouter } from 'next/router';
 import styles from './Home.module.scss';
 
-const FeatureDetailsTwo = () => {
+const FeatureDetailsFour = () => {
 
     //Router
     const router = useRouter();
@@ -21,7 +21,7 @@ const FeatureDetailsTwo = () => {
     return (
         <div className="wrapper w-full flex flex-col md:flex-row lg:justify-evenly px-4 lg:px-10 xl:px-24 pt-16 lg:pt-36 relative">
 
-            <div className="pt-20 md:pt-10 md:mt-0 item w-full md:w-1/2 order-last md:order-first">
+            <div className="pt-20 md:pt-10 md:mt-0 item w-full md:w-1/2">
                 <h1 className="font-bold text-3xl sm:text-2xl xl:text-4xl sm:text-center md:text-left mb-5">
                     Easily manage payment options <br className="hidden lg:flex"></br>  for maintenance Dues, utility <br className="hidden lg:flex"></br> bills and other charges.
                 </h1>
@@ -50,9 +50,9 @@ const FeatureDetailsTwo = () => {
                 </div>
             </div>
 
-            <div className="image-block items-center md:px-10 lg:px-0 w-full mx-auto md:w-1/2 pt-28 mt-16 md:mt-0 md:pt-0 order-first md:order-last">
-                <StyledImage className={`${styles.imgFeatureTwo} flex md:hidden mx-auto md:mt-28 lg:mt-20`} src="/images/home-page/feature-wallpaper-two-mobile.png" />
-                <StyledImage className={`${styles.imgFeatureTwo} hidden md:flex absolute right-0 md:mt-28 lg:mt-20`} src="/images/home-page/feature-wallpaper-two.png" />
+            <div className="items-center md:px-10 lg:px-0 w-full mx-auto md:w-1/2 pt-10 -mb-10 md:mt-0 md:pt-0 ">
+                {/* <StyledImage className={`${styles.imgFeatureTwo} flex md:hidden mx-auto md:mt-28 lg:mt-20`} src="/images/home-page/feature-wallpaper-four-mobile.png" /> */}
+                <StyledImage className={`${styles.imgFeatureTwo}  md:absolute left-0 md:mt-28 lg:mt-20`} src="/images/home-page/feature-wallpaper-four.svg" />
             </div>
             
 
@@ -61,12 +61,6 @@ const FeatureDetailsTwo = () => {
                 .wrapper {
                     height: 650px;
                 }
-                .image-block {
-                    background-image: url("/images/home-page/oval-two.svg");
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: contain;
-                } 
                 @media screen and (max-width: 1200px) {
                     .wrapper {
                         height: auto;
@@ -79,4 +73,4 @@ const FeatureDetailsTwo = () => {
     )
 }
 
-export default FeatureDetailsTwo;
+export default FeatureDetailsFour;

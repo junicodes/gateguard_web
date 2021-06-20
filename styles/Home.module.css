@@ -93,10 +93,19 @@
 
 .featuresSection {
   background: #F7FFFB;
-  height: 2650px;
+  height: 2300px;
 }
 
 
+@media (max-width: 768px) {
+  .page{
+    height: auto;
+  }
+  .featuresSection {
+    background: #F7FFFB;
+    height: auto;
+  }
+}
 
 @media (max-width: 600px) {
   .grid {

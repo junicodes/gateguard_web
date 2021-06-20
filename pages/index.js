@@ -7,6 +7,7 @@ import Features from '@/components/Home/Features'
 import FeatureDetailsOne from '@/components/Home/FeatureDetailsOne'
 import FeatureDetailsTwo from '@/components/Home/FeatureDetailsTwo'
 import FeatureDetailsThree from '@/components/Home/FeatureDetailsThree'
+import FeatureDetailsFour from '@/components/Home/FeatureDeatilsFour'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
              <FeatureDetailsTwo />
              <FeatureDetailsThree />
           </section>
+          <FeatureDetailsFour />
       </main>
       
     </div>
