@@ -217,6 +217,9 @@ const ContactForm = () => {
                     .wrapper {
                         height: auto;
                     }
+                    .contactForm {
+                        width: 100%;
+                    }
                 }
             
             `}
