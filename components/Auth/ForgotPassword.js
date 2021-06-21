@@ -107,7 +107,6 @@ const ForgotPassword = () => {
 
     return (
         <div className="wrapper flex animate__animated animate__fadeIn relative">
-           <StyledImage className="absolute right-0 -top-8" src="/images/home-page/oval-small.svg" />
             <form className="forgotPasswordForm image-block mx-auto mt-10 px-4 md:px-14 py-16">
                     <h1 className="font-bold p-0 text-2xl md:text-3xl text-center" style={{color: "#231F1F"}}>Password Recovery</h1>
                     <p className="my-4 p-0 text-center text-lg" style={{color: "#231F1F"}}>Enter your account details below to continue</p>
@@ -149,8 +148,6 @@ const ForgotPassword = () => {
                         onEvent={handleforgotPasswordApi} className="primary_btn_color w-full h-12 mx-auto justify-center text-lg font-bold mt-3" label="Continue" />
                 </div>
             </form>
-
-            <StyledImage className="absolute left-0 bottom-10" src="/images/home-page/oval-small-left.svg" />
             
             <style jsx>{`
 

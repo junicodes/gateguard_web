@@ -19,7 +19,7 @@ const Features = () => {
 
                 <div className="mx-4 xl:mx-52 md:flex justify-around mt-14">
 
-                    <div className="md:flex justify-start md:w-1/2 my-10 md:my-5" data-aos="fade-right" data-aos-duration="1000">
+                    <div className="md:flex justify-start md:w-1/2 my-10 md:my-5" data-aos="fade-up" data-aos-duration="1000">
 
                        <div className="w-full md:w-1/4 my-4">
                               <StyledImage src="/images/home-page/visitor-feature-icon.svg" className="" width={92} height={92} />
@@ -64,7 +64,7 @@ const Features = () => {
 
                 <div className="mx-4 xl:mx-52 md:flex justify-around my-14">
 
-                    <div className="md:flex justify-start md:w-1/2 my-10 md:my-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="md:flex justify-start md:w-1/2 my-10 md:my-5" data-aos="fade-down" data-aos-duration="1000">
 
                         <div className="w-full md:w-1/4 my-4">
                               <StyledImage src="/images/home-page/service-directory-icon.svg" className="" width={92} height={92} />
@@ -84,7 +84,7 @@ const Features = () => {
 
                     </div>
 
-                    <div className="md:flex justify-start md:w-1/2 my-10 md:my-5" data-aos="fade-left" data-aos-duration="1000">
+                    <div className="md:flex justify-start md:w-1/2 my-10 md:my-5" data-aos="fade-up" data-aos-duration="1000">
 
                         <div className="w-full md:w-1/4 my-4">
                               <StyledImage src="/images/home-page/admin-web-portal-icon.svg" className="" width={92} height={92} />
