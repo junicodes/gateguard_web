@@ -23,6 +23,12 @@ const path = (mode, knownPath, realpath) => {
 
         case "findurlpath":
             return realpath;
+
+        default:
+            allowed_paths = [
+                '/', '/auth/new-password', '/about', '/contact'];
+
+             return allowed_paths.includes(realpath) ? true : false;
     }
 }
 

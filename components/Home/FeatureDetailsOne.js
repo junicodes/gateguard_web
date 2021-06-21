@@ -19,10 +19,10 @@ const FeatureDetailsOne = () => {
 
     return (
         <>
-            <div className="wrapper w-full flex flex-col md:flex-row lg:justify-evenly px-4 lg:px-10 xl:px-24 pt-10 lg:pt-24">
+            <div className="wrapper w-full flex flex-col md:flex-row lg:justify-evenly px-4 lg:px-10 xl:px-24 pt-10 lg:pt-24 animate__animated animate__fadeIn">
 
                 <div className="image-block items-center w-full mx-auto md:w-1/2 pt-10">
-                    <StyledImage className="mx-auto" src="/images/home-page/feature-wallpaper-one.svg" />
+                    <StyledImage aos="fade-up-right" className="mx-auto" src="/images/home-page/feature-wallpaper-one.svg" />
                 </div>
 
                 <div className="pt-10 md:mt-0 item w-full md:w-1/2 lg:pl-10 xl:pl-20">

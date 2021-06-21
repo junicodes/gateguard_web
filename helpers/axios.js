@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Storage } from "./storageUtility";
-import { apiOrigin, version } from "./api-routes/v1";
-import { LOG_USER_OUT } from "react-wrappers/Redux/types";
+import { apiOrigin, version } from "./api-routes/v1.js";
+import { LOG_USER_OUT } from "../react-wrapper/Redux/types";
 import { FindUrlPath } from "./FindUrlPath";
 
 export default async function apiRequest(

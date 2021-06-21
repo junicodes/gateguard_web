@@ -13,12 +13,12 @@ const Content = () => (
                     </div>
                 </a>
             </Link>
-            <a className="leading-relaxed inline-block mt-4 whitespace-no-wrap">
+            <a href="https://play.google.com/store/apps/details?id=com.gateguard.inc" target="_blank" className="leading-relaxed inline-block mt-4 whitespace-no-wrap">
                 <div className="logo">
                     <Image src="/images/app-logo/appstore.svg" width={200} height={60} />
                 </div>
             </a>
-            <a className="leading-relaxed inline-block whitespace-no-wrap">
+            <a href="#" target="_blank" className="leading-relaxed inline-block whitespace-no-wrap">
                 <div className="logo">
                     <Image src="/images/app-logo/playstore.svg" width={200} height={60} />
                 </div>

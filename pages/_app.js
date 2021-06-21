@@ -1,8 +1,9 @@
 import dynamic from "next/dynamic";
+import { AppProvider } from "../react-wrapper/Context/AppContext";
 import "../styles/build/globals.css";
 import '../styles/general.css'
-import "alertifyjs/build/css/alertify.css";
-import "alertifyjs/build/css/themes/bootstrap.css";
+import { Provider } from "react-redux";
+import { useStore } from "../react-wrapper/Redux/store";
 
 const Layout = dynamic(
   () => {
@@ -12,10 +13,17 @@ const Layout = dynamic(
 );
 
 function MyApp({ Component, pageProps }) {
+
+  const store = useStore(pageProps.initialReduxState);
+
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <Provider store={store}>
+      <AppProvider>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+      </AppProvider>
+  </Provider>
   )
 }
 

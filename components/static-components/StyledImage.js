@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react'
 
-const StyledImage = forwardRef(({ onEvent, dataset, className, noShadow, src, alt, width, bgSty, bgClass, height }, ref) => {
+const StyledImage = forwardRef(({ onEvent, aos, dataset, className, noShadow, src, alt, width, bgSty, bgClass, height }, ref) => {
 
     const classSty = `${className}`;
 
@@ -12,7 +12,7 @@ const StyledImage = forwardRef(({ onEvent, dataset, className, noShadow, src, al
 
     return (    
         <>
-            <div style={bgSty ? bgSty : null} className={ bgClass ? bgClass : null}>
+            <div data-aos={aos ? aos : null} data-aos-duration={aos ? "1000" : null} style={bgSty ? bgSty : null} className={ bgClass ? bgClass : null}>
                 <img ref={ref} style={{boxShadow: `${noShadow ? '0px 4px 16px rgba(84, 92, 92, 0.1)' : null}`}}
                     className={classSty}
                     src={src}

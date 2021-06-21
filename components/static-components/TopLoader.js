@@ -12,11 +12,11 @@ const TopLoader = () => {
 
     //Use Context
     const appContext = useAppContext();
-
+    
     useEffect(() => {
         
         if (appContext.ceilingPreloader || appContext.ceilingPreloaderRequest) {
-            setBarColor('#FBCA2F')
+            setBarColor('#49A347')
             return ref.current.continuousStart()
         }
 
