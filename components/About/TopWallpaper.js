@@ -6,7 +6,7 @@ const TopWallpaper = ({title, note}) => {
     return (
         <div className="wrapper flex flex-col md:flex-row justify-between relative animate__animated animate__fadeIn">
             <div className="px-4 md:px-28 xl:px-52 item mt-20 md:mt-36 w-full">
-                <h1 className="font-bold text-5xl sm:text-6xl text-center md:text-left">
+                <h1 className="font-bold text-4xl sm:text-5xl md:text-6xl text-center md:text-left">
                     {title}
                 </h1>
                 <p className="mt-5 md:w-3/4 xl:w-1/2 text-xl text-center md:text-left">

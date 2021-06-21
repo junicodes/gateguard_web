@@ -12,6 +12,7 @@ import FeatureDetailsFour from '@/components/Home/BottomInfo'
 import { useAppContext, useDispatchAppContext } from "../react-wrapper/Context/AppContext";
 import ImagePreview from '@/components/About/ImagePreview';
 import MeetTheTeam from '@/components/About/MeetTheTeam';
+import ContactForm from '@/components/General/ContactForm';
 
 
 export default function Home() {
@@ -41,7 +42,7 @@ export default function Home() {
       <main className={`${styles.main} 2xl:container mx-auto`}>
           <TopWallpaper title="Contact Us"
            note="A fully packaged estate management platform for residential and corporate gated communities. This module increases your security without hassle." />
-          
+          <ContactForm />
           <FeatureDetailsFour />
       </main>
       

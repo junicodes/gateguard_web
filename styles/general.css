@@ -51,7 +51,7 @@ body {
     background: #ffffff;
     height: 60px;
     padding-left: 10px;
-    border: 1px solid #8697BB;
+    border: 1px solid #EAE9F2 !important;
   }
   input::placeholder,
   textarea::placeholder,
@@ -90,7 +90,7 @@ body {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     outline: 0 none !important;
-    border: 1px solid #8697BB;
+    border: 1px solid #49A347 !important;
   }
   .input-class:focus {
     border-color: #dbe8e8;
@@ -99,7 +99,7 @@ body {
   .scroller {
     overflow: auto;
     scrollbar-width: thin;
-    scrollbar-color: #001540;
+    scrollbar-color: #49A347;
   }
   .scroller::-webkit-scrollbar {
     width: 5px;
@@ -112,13 +112,13 @@ body {
   }
   
   .scroller::-webkit-scrollbar-thumb {
-    color: #001540;
+    color: #EAE9F2;
     border-radius: 20px;
-    background: #001540;
+    background: #49A347;
   }
   .scroller::-webkit-scrollbar-thumb:hover {
-    background: #001540;
-    border-color: #3f3d56;
+    background: #49A347;
+    border-color: #EAE9F2;
     border-radius: 20px;
   }
   

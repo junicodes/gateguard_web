@@ -47,7 +47,7 @@ const ForgotPassword = () => {
     //validations
     const clientValidation = async (target, elem) => {
         setNote({})
-        elem.style.border = "1px solid #8697BB";
+        elem.style.border = "1px solid #EAE9F2";
 
         if(elem.value.trim() === "") {
             elem.style.border = "1px solid red"
