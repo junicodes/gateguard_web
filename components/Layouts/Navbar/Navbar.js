@@ -55,7 +55,7 @@ const Navbar = () => {
                 {
                     FindUrlPath("defualt") ?
                         <>
-                            <div onClick={handleMobileMenu} className=" hidden:flex lg:hidden items-center p-2 cursor-pointer">
+                            <div onClick={handleMobileMenu} className=" hidden:flex lg:hidden items-center p-2 h-12 bg-red-500 cursor-pointer">
                                <StyledImage src="/images/icons/menu-icon.png" width={30} height={30} />
                             </div>
 

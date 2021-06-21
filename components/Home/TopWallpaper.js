@@ -6,7 +6,7 @@ const TopWallpaper = () => {
     return (
         <div className="wrapper flex flex-col md:flex-row justify-between relative animate__animated animate__fadeIn">
 
-            <StyledImage className="absolute right-0 -top-8" src="/images/home-page/oval-small.svg" />
+            <StyledImage className="absolute right-0 -top-8 pointer-events-none" src="/images/home-page/oval-small.svg" />
 
             <div className="w-full md:w-1/2 flex items-center pt-20">
                 <div className="px-4 xl:px-24 mt-10 md:mt-0 item">
